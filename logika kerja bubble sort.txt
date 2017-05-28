@@ -1,0 +1,14 @@
+Logika Kerja Konsep Bubble Sort
+
+1. data ke-I dengan i+1 akan dibandingkan
+   jika =! maka akan ditukar (data ke-i & ke i+1 = ke-i)
+
+2. data ke i+1 dengan i+2 dibandingkan. proses ini akan dilakukan hingga data yang terakhir.
+   ex: - 1 dengan 2
+	   - 2 dengan 3
+	   - 3 dengan 4
+	   - 4 dengan 5
+	   - n-1 dengan n-1
+3. proses pertama akan selesai jika kita sudah selesai membandingkan antara n-1 dengan n.
+   setelah selesai dengan proses yang pertama, maka akan dilanjutkan ke proses selanjutnya sesuai dengan aturan ke-1, mulai dari data ke-1 dengan data ke-2, dan seterusnya.
+4. proses akan berhenti jika sudah tidak ada lagi pertukaran   
